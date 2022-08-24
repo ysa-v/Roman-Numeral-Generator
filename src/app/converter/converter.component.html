@@ -1,0 +1,7 @@
+<div>
+    <form (submit)="submitConversion()">
+        <input type="number" [(ngModel)]="inputNumber"/>
+        <input type="submit" value="Convert"/>
+    </form>
+</div>
+<p id="result">{{ result }}</p>

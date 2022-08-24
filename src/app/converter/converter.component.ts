@@ -7,15 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConverterComponent implements OnInit {
 
+  // Declare arrays with corresponding values
+
+  romanNumerals: string[] = ['I', 'V', 'X', 'L', 'C', 'D', 'M'];
+  arabicNumerals: number[] = [1, 5, 10, 50, 100, 500, 1000];
+
+  inputNumber: number;
+  result: string = 'result';
+
   constructor() { }
 
   ngOnInit() {
   }
-
-  // Declare arrays with corresponding values
-
-  const romanNumerals: string[] = ['I', 'V', 'X', 'L', 'C', 'D', 'M'];
-  const arabicNumerals: number[] = [1, 5, 10, 50, 100, 500, 1000];
 
   // Checks to see if the input starts with 4 or 9
 
@@ -61,5 +64,23 @@ export class ConverterComponent implements OnInit {
 		  }
 	  }
     return romanNumber;
+  }
+
+  submitConversion() {
+
+    console.log(this.inputNumber);
+    console.log(typeof this.inputNumber);
+
+    if (this.inputNumber < 1 || this.inputNumber > 4999) {
+
+      // add alert
+      return;
+
+    } else {
+
+      // this.result = this.converter(this.inputNumber);
+      this.result = 'input works';
+
+    }
   }
 }
