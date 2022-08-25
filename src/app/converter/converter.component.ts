@@ -13,7 +13,7 @@ export class ConverterComponent implements OnInit {
   arabicNumerals: number[] = [1, 5, 10, 50, 100, 500, 1000];
 
   inputNumber: number;
-  result: string = 'result';
+  result: string;
 
   constructor() { }
 
@@ -78,8 +78,7 @@ export class ConverterComponent implements OnInit {
 
     } else {
 
-      // this.result = this.converter(this.inputNumber);
-      this.result = 'input works';
+      this.result = this.converter(this.inputNumber);
 
     }
   }
