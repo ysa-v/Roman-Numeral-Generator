@@ -1,5 +1,6 @@
 # RomanNumberalGenerator
 
+A simple application that converts arabic numerals to roman numerals using Angular and TypeScript/JavaScript.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
 ## Development server
