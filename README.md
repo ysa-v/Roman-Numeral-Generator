@@ -8,12 +8,12 @@ A simple application that converts arabic numerals to roman numerals using Angul
 ![Conversion of the number 4949 to MMMMCMXLIX](..src/assets/images/img1.png)
 
 <img
-  src="./src/assets/imgaes/img2.png"
+  src="../src/assets/images/img2.png"
   alt="Conversion of the number 1234 to MCCXXXIV"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 <img
-  src="./src/assets/imgaes/img2.png"
+  src="../src/assets/images/img2.png"
   alt="Conversion of the number 4949 to MMMMCMXLIX"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
