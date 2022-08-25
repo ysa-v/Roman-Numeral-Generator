@@ -5,12 +5,12 @@ A simple application that converts arabic numerals to roman numerals using Angul
 <img
   src="https://i.imgur.com/9LU0GSp.png"
   alt="Conversion of the number 1234 to MCCXXXIV"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
 
   <img
   src="https://i.imgur.com/42cyhoG.png"
   alt="Conversion of the number 4949 to MMMMCMXLIX"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
