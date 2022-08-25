@@ -3,9 +3,9 @@
 A simple application that converts arabic numerals to roman numerals using Angular and TypeScript/JavaScript.
 
 
-![Conversion of the number 1234 to MCCXXXIV](.src/assets/images/img2.png)
+![Conversion of the number 1234 to MCCXXXIV](..src/assets/images/img2.png)
 
-![Conversion of the number 4949 to MMMMCMXLIX](.src/assets/images/img1.png)
+![Conversion of the number 4949 to MMMMCMXLIX](..src/assets/images/img1.png)
 
 <img
   src="./src/assets/imgaes/img2.png"
