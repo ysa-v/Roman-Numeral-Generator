@@ -2,10 +2,10 @@
 
 A simple application that converts arabic numerals to roman numerals using Angular and TypeScript/JavaScript.
 
+![Conversion of the number 1234 to MCCXXXIV](https://i.imgur.com/9LU0GSp.png)
 
-![Conversion of the number 1234 to MCCXXXIV](https://imgur.com/9LU0GSp)
+![Conversion of the number 4949 to MMMMCMXLIX](https://i.imgur.com/42cyhoG.png)
 
-![Conversion of the number 4949 to MMMMCMXLIX](https://imgur.com/42cyhoGg)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
