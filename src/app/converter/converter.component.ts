@@ -44,7 +44,11 @@ export class ConverterComponent implements OnInit {
 
 	  for (let i = (this.romanNumerals.length - 1); i >= 0; i--) {
 	  
-      // Special conversion for 4's and 9's
+      /* Special conversion for 4's and 9's
+      Checks that 4 or 9 is the digit currently being converted, 
+      that the loop has reached its appropriate denomination, 
+      and that it is not the first iteration of the loop. */
+
       if (this.startsWith4or9(input) && (input !== input % this.arabicNumerals[i]) && i < (this.romanNumerals.length - 1)) {
 			
         if (input.toString()[0] === '4'){
