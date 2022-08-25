@@ -47,9 +47,12 @@ export class ConverterComponent implements OnInit {
       // Special conversion for 4's and 9's
       if (this.startsWith4or9(input) && (input !== input % this.arabicNumerals[i]) && i < (this.romanNumerals.length - 1)) {
 			
-        romanNumber += this.romanNumerals[0] + this.romanNumerals[i + 1];
+        if (input.toString()[0] === '4'){
+          romanNumber += this.romanNumerals[i] + this.romanNumerals[i + 1];
+        }
 
 			  if (input.toString()[0] === '9') { 
+          romanNumber += this.romanNumerals[i - 1] + this.romanNumerals[i + 1];
           i--;
         }
 			
