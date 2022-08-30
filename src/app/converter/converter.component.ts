@@ -75,9 +75,6 @@ export class ConverterComponent implements OnInit {
 
   submitConversion() {
 
-    console.log(this.inputNumber);
-    console.log(typeof this.inputNumber);
-
     if (this.inputNumber < 1 || this.inputNumber > 4999) {
 
       alert("Only possible to convert numbers more than 0 or less than 5000.")
