@@ -80,7 +80,7 @@ export class ConverterComponent implements OnInit {
 
     if (this.inputNumber < 1 || this.inputNumber > 4999) {
 
-      // add alert
+      alert("Only possible to convert numbers more than 0 or less than 5000.")
       return;
 
     } else {
