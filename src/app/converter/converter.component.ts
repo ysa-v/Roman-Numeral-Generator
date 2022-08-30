@@ -83,6 +83,11 @@ export class ConverterComponent implements OnInit {
       alert("Only possible to convert numbers more than 0 or less than 5000.")
       return;
 
+    } else if (!Number.isInteger(this.inputNumber)) {
+
+      alert("There are no roman numerals for decimals! Please enter a whole number.")
+      return;
+    
     } else {
 
       this.result = this.converter(this.inputNumber);
