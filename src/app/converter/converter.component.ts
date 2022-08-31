@@ -61,14 +61,14 @@ export class ConverterComponent implements OnInit {
 
   submitConversion() {
 
-    if (this.inputNumber < 1 || this.inputNumber > 4999) {
+    if (!Number.isInteger(this.inputNumber)) {
 
-      alert("Only possible to convert numbers more than 0 or less than 5000.")
+      alert("Enter a whole number")
       return;
 
-    } else if (!Number.isInteger(this.inputNumber)) {
+    } else if (this.inputNumber < 1 || this.inputNumber > 4999) {
 
-      alert("There are no roman numerals for decimals! Please enter a whole number.")
+      alert("Enter a number more than 0 or less than 5000")
       return;
     
     } else {
